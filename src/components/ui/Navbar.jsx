@@ -2,7 +2,7 @@ import { LogOut, Plus } from "lucide-react";
 import React from "react";
 
 import colors from "../../constants/colors";
-import logo from "../../assets/logo.webp";
+import logo from "../../assets/alog.webp";
 import Button from "./Button";
 
 

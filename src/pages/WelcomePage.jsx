@@ -5,7 +5,7 @@ import React from "react";
 
 import Button from "../components/ui/Button";
 import colors from "../constants/colors";
-import logo from "../assets/logo.webp";
+import logo from "../assets/alog.webp";
 
 
 const WelcomePage = () => {
@@ -45,15 +45,15 @@ const WelcomePage = () => {
 
                 {/* Branding */}
                 <h1 className="text-[42px] font-bold mb-1">
-                    <span style={{ color: colors.textSecondary }}>Chat</span>
-                    <span style={{ color: colors.accent }}>Spark</span>
+                    <span style={{ color: colors.textSecondary }}>Agami</span>
+                    <span style={{ color: colors.accent }}>Astro</span>
                 </h1>
 
                 <p
                     className="text-[28px] font-semibold mb-4"
                     style={{ color: colors.textSecondary }}
                 >
-                    Welcome To <span style={{ color: colors.accent }}>ChatSpark</span>
+                    Welcome To <span style={{ color: colors.accent }}>AgamiAstro</span>
                 </p>
 
                 {/* Divider */}

@@ -6,7 +6,7 @@ import { LogIn } from "lucide-react";
 import axiosInstance from "../api/axiosInstance";
 import ROUTES from "../constants/Routes";
 import colors from "../constants/colors";
-import logo from "../assets/logo.webp";
+import logo from "../assets/alog.webp";
 
 
 const LoginPage = () => {
@@ -59,7 +59,7 @@ const LoginPage = () => {
         </div>
 
         <h1 className="text-3xl font-bold text-center mb-6">
-          Chat<span style={{ color: colors.accent }}>Spark</span>
+          Agami<span style={{ color: colors.accent }}>Astro</span>
         </h1>
 
         <form onSubmit={handleLogin}>
