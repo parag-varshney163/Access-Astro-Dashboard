@@ -16,7 +16,7 @@ const AuditLogs = () => {
     const fetchAuditLogs = async () => {
       try {
         const res = await axiosInstance.get(
-          "/api/v1/admin-dashboard/settings/audit-logs"
+          "/api/v1/access-dashboard/settings/audit-logs"
         );
 
         const list = res?.data?.data?.logs || [];

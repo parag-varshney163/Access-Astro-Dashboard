@@ -114,7 +114,7 @@ const DASHBOARD_DATA = {
     "Rashifal",
     "Notifications",
     "Data Insights",
-    "Auto Pay"
+    "Auto Pay & Chat Limit"
     
   ],
 };
@@ -220,7 +220,7 @@ const BACKEND_KEYS = {
   "Rashifal": "rashifal",
   "Notifications":"notifications",
   "Data Insights":"dataInsights",
-  "Auto Pay":"autoPay"
+  "Auto Pay & Chat Limit":"autoPay"
 
 };
 
