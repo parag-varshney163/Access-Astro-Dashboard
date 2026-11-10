@@ -114,8 +114,18 @@ const DASHBOARD_DATA = {
     "Rashifal",
     "Notifications",
     "Data Insights",
-    "Auto Pay & Chat Limit"
-    
+    "Auto Pay & Chat Limit",
+    "Daily Special",
+    "Reels",
+    "Reels Category",
+    "Reels Stats",
+    "Experiments",
+    "Experiments Stats",
+    "Request Tracking",
+    "Subscription Overview",
+    "Juspay",
+    "Debit Failures"
+
   ],
 };
 
@@ -141,9 +151,9 @@ const BACKEND_KEYS = {
   "Revoke Access": "revokeAccess",
   "User Transaction Settlement": "transactionSettlement",
   "Chat Moderation": "chatModeration",
-  "Chat Access":"chatAccess",
-  "Mute Calls":"muteCalls",
-  "Device Association":"deviceAssociated",
+  "Chat Access": "chatAccess",
+  "Mute Calls": "muteCalls",
+  "Device Association": "deviceAssociated",
 
   "Find Your Vibe": "findYourVibe",
   "Trending Vibes": "trendingVibes",
@@ -167,10 +177,10 @@ const BACKEND_KEYS = {
   "Audit Logs": "auditLogs",
   "Creator Earning": "creatorEarning",
   "Chat Access": "chatAccess",
-  "Auto Chat":"autoScript",
-  "Coupon":"coupon",
-  "Banner Management":"bannerMangement",
-  "Community":"communityGuidelines",
+  "Auto Chat": "autoScript",
+  "Coupon": "coupon",
+  "Banner Management": "bannerMangement",
+  "Community": "communityGuidelines",
 
   "Recent Trend": "recentTrends",
   "Creators": "creators",
@@ -205,10 +215,10 @@ const BACKEND_KEYS = {
   "Notification": "notification",
   "Weekly Report + Transactions": "weeklyReport",
   "Trust & Safety": "trustAndSafety",
-  "User Journey":"userJourney",
-  "Server Monitor":"serverMonitor",
-  "State and City Breakdown":"stateAndCityWise",
-  "Free Call(2 Rupees)":"freeCall",
+  "User Journey": "userJourney",
+  "Server Monitor": "serverMonitor",
+  "State and City Breakdown": "stateAndCityWise",
+  "Free Call(2 Rupees)": "freeCall",
 
   "Customer Support(bot)": "customerSupport",
   "Account Management(Astro)": "accountManagement",
@@ -218,9 +228,20 @@ const BACKEND_KEYS = {
   "Festivals": "festivals",
   "Tutorial Videos": "tutorialVideos",
   "Rashifal": "rashifal",
-  "Notifications":"notifications",
-  "Data Insights":"dataInsights",
-  "Auto Pay & Chat Limit":"autoPay"
+  "Notifications": "notifications",
+  "Data Insights": "dataInsights",
+  "Auto Pay & Chat Limit": "autoPay",
+  "Daily Special": "dailySpecial",
+  "Reels": "reels",
+  "Reels Category": "reelsCategory",
+  "Reels Stats": "reelsStats",
+  "Experiments": "experiments",
+  "Experiments Stats": "experimentsStats",
+  "Request Tracking": "requestTracking",
+  "Subscription Overview": "subscriptionOverview",
+  "Juspay": "juspay",
+  "Debit Failures": "debitFailures",
+
 
 };
 
@@ -234,7 +255,7 @@ const DASHBOARD_KEY_MAP = {
   "Creator Onboarding and Payouts Dashboard": "creatorOnboardingPayoutsDashboard",
   "Calling Dashboard": "callingDashboard",
   "Analytics Dashboard": "analyticsDashboard",
-  "Agami Astro Dashboard":"agamiCustomerDashboard"
+  "Agami Astro Dashboard": "agamiCustomerDashboard"
 };
 
 
@@ -254,7 +275,7 @@ export default function EditRoleModal({ isOpen, onClose, roleId, refresh }) {
     creator: false,
     calling: false,
     analytics: false,
-    agami:false
+    agami: false
   });
 
 
@@ -440,7 +461,7 @@ export default function EditRoleModal({ isOpen, onClose, roleId, refresh }) {
             </div>
 
             {/* PERMISSIONS */}
-            <div className="mb-4"> 
+            <div className="mb-4">
               <h3 className="text-sm font-semibold" style={{ color: colors.textPrimary }}>
                 Dashboard & Tab Access
               </h3>
